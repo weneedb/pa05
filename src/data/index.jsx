@@ -22,8 +22,8 @@ export const headerNav = [
 ];
 
 export const introText = {
-  title: "port developer",
-  desc: ["talent is", "found at the end of the", "effort"],
+  title: "123",
+  desc: ["123", "123", "123"],
 };
 
 export const footerText = [
