@@ -8,10 +8,16 @@ import Port from "../components/Port";
 // import Contact from "../components/Contact";
 import Footer from "../components/Footer";
 import Main from "../components/Main";
+import { motion, useScroll } from "framer-motion";
 
 const HomeView = () => {
+  const { scrollYProgress } = useScroll();
   return (
     <>
+      <motion.div
+        className="progress-bar"
+        style={{ scaleX: scrollYProgress }}
+      />
       <Skip />
       <Header />
       <Main>

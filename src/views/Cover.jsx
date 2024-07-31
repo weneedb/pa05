@@ -7,7 +7,7 @@ function Cover(props) {
     <>
       <div className="grid">
         <div className="item">
-          <button onClick={() => navigate("#intro")}>⬅</button>
+          <button onClick={() => navigate("/Homeview")}>⬅</button>
         </div>
         <div className="item">
           <button onClick={() => navigate("/Homeview/Port/*")}>⬅</button>
