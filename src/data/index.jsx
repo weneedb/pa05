@@ -4,14 +4,6 @@ export const headerNav = [
     url: "#intro",
   },
   {
-    title: "skill",
-    url: "#skill",
-  },
-  {
-    title: "site",
-    url: "#site",
-  },
-  {
     title: "portfolio",
     url: "#port",
   },
@@ -61,5 +53,16 @@ export const footerText = [
     title: "next",
     desc: "넥스트로 만든 사이트를 같이 만들어 봅니다.",
     link: "https://github.com/webstoryboy/port2023-next",
+  },
+];
+
+export const contactText = [
+  {
+    link: "https://open.kakao.com/o/gM7YLzwf",
+    title: "KAKAO : webstupids",
+  },
+  {
+    link: "mailto:webstoryboy@naver.com",
+    title: "mail : webstoryboy@naver.com",
   },
 ];
